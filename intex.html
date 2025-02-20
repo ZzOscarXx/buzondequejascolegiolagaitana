@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buzón de Quejas y Reclamos - Colegio La Gaitana</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        header {
+            background-color: #006847; /* Verde */
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border-radius: 5px 5px 0 0;
+        }
+        .container {
+            background-color: white; /* Blanco */
+            padding: 30px;
+            border-radius: 0 0 5px 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            margin-top: 0;
+        }
+        .form-header {
+            border-bottom: 2px solid #ce1126; /* Línea roja */
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+        }
+        .step {
+            background-color: #f9f9f9;
+            border-left: 4px solid #006847; /* Verde */
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+        footer {
+            margin-top: 30px;
+            text-align: center;
+            color: #666;
+            font-size: 14px;
+            background-color: #006847; /* Verde */
+            color: white;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        footer a {
+            color: #ffffff;
+        }
+        .info-box {
+            background-color: #e8f5e9;
+            border-left: 4px solid #006847; /* Verde */
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+        h3 {
+            color: #006847; /* Verde para títulos */
+        }
+        .credits {
+            font-style: italic;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        /* Estilos para el iframe */
+        .form-container {
+            width: 100%;
+            margin: 20px 0;
+            display: flex;
+            justify-content: center;
+        }
+        .form-container iframe {
+            width: 100%;
+            max-width: 960px;
+            height: 1549px;
+            border: none;
+            overflow: hidden;
+        }
+        @media (max-width: 768px) {
+            .container {
+                padding: 15px;
+            }
+            .form-container iframe {
+                height: 1700px; /* Mayor altura en móviles */
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Buzón de Quejas y Reclamos</h1>
+        <p>Colegio La Gaitana</p>
+    </header>
+
+    <div class="container">
+        <div class="info-box">
+            <h3>Información importante</h3>
+            <p>Este buzón está destinado a recibir quejas, reclamos, sugerencias o felicitaciones relacionadas con nuestro servicio educativo. Todos los mensajes serán revisados y atendidos en un plazo máximo de 5 días hábiles.</p>
+        </div>
+
+        <div class="form-header">
+            <h2>Formulario de Contacto</h2>
+        </div>
+
+        <!-- Google Forms integrado -->
+        <div class="form-container">
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdwH7zcpFOoyVZqVXLOQ0FzCvWCk7t0QfthluQkeCMyi4TiPA/viewform?embedded=true" width="640" height="1549" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+        </div>
+
+        <div class="step">
+            <h3>¿Qué sucede después de enviar?</h3>
+            <ol>
+                <li>Recibirá una confirmación automática a su correo electrónico.</li>
+                <li>Su mensaje será asignado al departamento correspondiente.</li>
+                <li>En un plazo máximo de 5 días hábiles recibirá una respuesta.</li>
+                <li>Se le asignará un número de seguimiento para consultas posteriores.</li>
+            </ol>
+        </div>
+    </div>
+
+    <footer>
+        <p>Colegio La Gaitana &copy; 2025 | Teléfono: (01) 234-5678 | Email: contacto@colegiogaitana.edu</p>
+        <p class="credits">Página hecha por Oscar, propuesto por Jaider Montiel para Colegio La Gaitana</p>
+        <p><a href="#">Política de privacidad</a> | <a href="#">Términos y condiciones</a></p>
+    </footer>
+</body>
+</html>
